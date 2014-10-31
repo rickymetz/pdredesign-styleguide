@@ -14,4 +14,4 @@ This project uses Bower for packagemangement.
 ###Grunt
 This project uses Grunt for task running.
 Use ````grunt serve```` to build a dev version and watch for changes (includes SASS, AutoPrefixer, and LiveReload).
-Use ```grunt build```` to create a production version of the project.
+Use ```grunt build``` to create a production version of the project.
