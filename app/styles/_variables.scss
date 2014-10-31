@@ -1,1 +1,17 @@
-$btn-primary-color: red;
+// Colors
+// --------------------------------------------------
+$brand-primary:         #167CAF;
+$brand-success:         #5AC1B3;
+$brand-info:            #5bc0de;
+$brand-warning:         #f0ad4e;
+$brand-danger:          #d9534f;
+
+$btn-default-color:              #fff !default;
+$btn-default-bg:                 #7E8689 !default;
+$btn-default-border:             darken($btn-default-bg, 5%) !default;
+
+// Font styles
+// --------------------------------------------------
+$font-family-sans-serif:  "Roboto", Helvetica, Arial, sans-serif !default;
+$headings-font-family:    "Roboto Condensed", "Roboto", Helvetica, Arial, sans-serif !default;
+$headings-font-weight:    700 !default;

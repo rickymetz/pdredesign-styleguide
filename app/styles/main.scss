@@ -1,11 +1,15 @@
 
 $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
 
+//redefined global vaiables must go here, otherwise default bootstrap will outrule it.
 @import "_variables.scss";
-// bower:scss
+
+// bower:scss | Bootstrap library as managed by bower.
 @import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
 // endbower
 
+// Custom elements defined here. Must come last for specificity.
+@import "_custom.scss";
 
 .browsehappy {
   margin: 0.2em 0;
