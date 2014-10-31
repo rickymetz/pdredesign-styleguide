@@ -4,8 +4,8 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 //redefined global vaiables must go here, otherwise default bootstrap will outrule it.
 @import "_variables.scss";
 
-// bower:scss | Bootstrap library as managed by bower.
-@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+// bower:scss
+@import "bootstrap-sass-official/assets/stylesheets/bootstrap.scss";
 // endbower
 
 // Custom elements defined here. Must come last for specificity.

@@ -1,4 +1,4 @@
-// Base styles
+// Buttons
 // --------------------------------------------------
 
 .btn {
@@ -49,3 +49,14 @@
     @include box-shadow(none);
   }
 }
+
+
+// Forms
+// --------------------------------------------------
+.form-control {
+  border-width: 2px 1px 1px 1px;
+  &:focus{
+    border-width: 1px 1px 1px 1px;
+  }
+}
+
